@@ -3,7 +3,7 @@ package carraro.diego.uno.conceitosclassesabstrataseinterfaces.formas;
 // Java - Guia do Programador - 3ª Edição https: //github.com/pjandl/jgp3
 
 public abstract class Forma {
-    private double medida[]; // array de medidas
+    private double medida[];
 
     // Construtor parametrizado
     public Forma(int numMedidas) {

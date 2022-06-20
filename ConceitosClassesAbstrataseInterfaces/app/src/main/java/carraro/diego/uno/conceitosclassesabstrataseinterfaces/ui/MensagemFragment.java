@@ -10,15 +10,9 @@ import android.view.ViewGroup;
 
 import carraro.diego.uno.conceitosclassesabstrataseinterfaces.R;
 
+public class MensagemFragment extends Fragment {
 
-public class BlankFragment extends Fragment {
-
-
-
-    public BlankFragment() {
-
-    }
-
+    public MensagemFragment() {}
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -29,8 +23,9 @@ public class BlankFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-       View view = inflater.inflate(R.layout.fragment_blank,container,false);
+        View layoutFragment = inflater.inflate(R.layout.fragment_mensagem, container, false);
 
-       return view;
+
+        return layoutFragment;
     }
 }

@@ -8,7 +8,7 @@ public class Triangulo extends Forma {
         setMedida(2, l3);
     }
 
-    // impl. m�todo abstrato area() usando f�rmula de Her�o
+
     @Override
     public double area() {
         double sp = (getMedida(0) + getMedida(1) + getMedida(2)) / 2;

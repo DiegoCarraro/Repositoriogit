@@ -8,13 +8,13 @@ public class Retangulo extends Forma {
         setMedida(1, largura); // ajuste da medida da largura
     }
 
-    // implementação do metodo abstrato area()
+
     @Override
     public double area() {
         return getMedida(0) * getMedida(1);
     }
 
-    // implementação de operação específica extra
+
     public double perimetro() {
         return 2 * (getMedida(0) + getMedida(1));
     }
