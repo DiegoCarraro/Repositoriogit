@@ -9,6 +9,10 @@ public abstract class Forma {
         numeroDemedidas = new double[numMedidas];
     }
 
+    public Forma() {
+
+    }
+
 
     public double getMedida(int posicao){
 
@@ -24,5 +28,7 @@ public abstract class Forma {
     }
 
     public abstract double area();
+
+    public abstract double area(double pi);
 
 }
