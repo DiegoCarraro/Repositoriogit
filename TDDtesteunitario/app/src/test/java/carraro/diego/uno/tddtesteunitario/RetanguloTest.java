@@ -21,9 +21,7 @@ public class RetanguloTest {
 
         assertEquals("Área de um retângulo: " + area_BaseXAltura, area_BaseXAltura, area, DIFERENCA_ACEITAVEL);
 
-/*Double calculoPapel = new Double(area_BaseXAltura);
-boolean x = calculoPapel.equals(new Double(area));
-assertTrue(x);*/
+
     }
 
     @Test

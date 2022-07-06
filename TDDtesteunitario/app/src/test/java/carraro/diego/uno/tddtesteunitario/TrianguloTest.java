@@ -13,13 +13,14 @@ public class TrianguloTest {
     public static final double LADO_2 = 2;
     public static final double LADO_3 = 3;
     double DIFERENCA_ACEITAVEL        = 0.0001;
-    private static Triangulo triangulo = new Triangulo(1);
+
+    private static Triangulo triangulo = new Triangulo();
 
     public TrianguloTest() {}
 
     @Before
     public void objeto(){
-        triangulo = new Triangulo(3);
+        triangulo = new Triangulo();
     }
 
     @Test

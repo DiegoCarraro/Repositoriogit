@@ -6,17 +6,13 @@ public abstract class Forma {
 
 
     public Forma(int numMedidas){
+
         numeroDemedidas = new double[numMedidas];
     }
 
-    public Forma() {
-
-    }
-
-
     public double getMedida(int posicao){
 
-        if(posicao >= 0 && posicao < TAMANHO_MAXIMO){
+        if(posicao >= 0 && posicao <= TAMANHO_MAXIMO){
             return numeroDemedidas[posicao];
         } else
             throw new RuntimeException("Número inválido p/ calculo da área.");
@@ -24,6 +20,7 @@ public abstract class Forma {
     }
 
     public void setMedidas(int posicao, double medida){
+
         numeroDemedidas[posicao] = medida;
     }
 
